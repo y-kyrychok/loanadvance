@@ -1,0 +1,349 @@
+html{
+    min-height: 100%;
+}
+body{
+    font-family: "Lato-Regular", Helvetica, sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+section,
+main,
+header,
+footer,
+input,
+img,
+div,
+nav
+{
+    box-sizing: border-box;
+}
+main{
+    margin: 0 auto;
+}
+/******************************HEADER BEGIN**********************************************/
+header {
+    width: 100%;
+    height: 570px;
+    background: linear-gradient(to right, #2aac5f, #2aac8c), url("../img/header-bg-effect.png");
+    background-blend-mode: screen, difference, lighten;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-logo{
+    margin-top: 43px;
+}
+
+.nav {
+    font-size: 13px;
+    text-transform: uppercase;
+    display: inline-flex;
+    margin-top: 43px; 
+}
+
+li {
+    margin-right: 30px;
+}
+.nav li a:hover {
+    font-weight: bold;
+}
+
+button.get-started{
+    display: inline-flex;
+    justify-content: center;
+    width: 145px;
+    height: 47px;
+    margin: -15px 0 0 50px;
+    border: 2px solid #99d8c7;
+    border-radius: 24px;
+    letter-spacing: 0.4px;
+}
+button.get-started:hover {
+    color: #2aac5f;
+    background-color: #f8f8f8;
+}
+
+header h1 {
+    word-spacing: 2.5px;
+    letter-spacing: -1.7px;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 88px 90px 0 0;
+}
+/******************************FORM**********************************************/
+
+.request {
+    width: 550px;
+    height: 400px;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 1, 0.14);
+    position: absolute;
+    left: 366px;
+    top: 290px;
+    z-index: 177;
+    color: #232323;
+    background: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 33px 0 0 28px;
+    width: 100%;
+}
+
+.loan {
+    margin-left: 100px;
+    color: #2aac5f;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 0.944;
+    letter-spacing: 1px;
+}
+
+.loan-range {
+    display: block;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 90%;
+    border-radius: 5px;
+    height: 4px;
+    background-color: #eee;
+    margin: 39px 0 0 30px;
+}
+
+input[type='range'].loan-range::-webkit-slider-thumb {
+-webkit-appearance: none;
+background-color: #2aac5f;
+width: 13px;
+height: 13px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.request p {
+    color: #a7a7a7;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 9px 30px 5px 33px;
+}
+
+
+.inputs{
+    width: 490px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+.inputs input {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding-left: 15px;
+    color: #919191;
+    font-size: 15px;
+}
+
+/*::-webkit-input-placeholder {
+    color: #919191;
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+}*/
+
+.first-name {
+    width: 238px;
+    height: 52px;
+
+}
+
+.last-name {
+    width: 238px;
+    height: 52px;
+}
+
+.email {
+    width: 395px;
+    height: 52px;
+}
+
+.period {
+    width: 85px;
+    height: 52px;
+}
+.submit-form-request {
+    width: 292px;
+    height: 57px;
+    border-radius: 35px;
+    background-color: #2aac5f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 3px;
+    font-family: "Lato-Black";
+}
+.submit-form-request:hover{
+    color: #f8f8f8;
+    background-color: #2dad8e;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 1, 0.14);
+}
+/************************ END FORM***********************************/
+.how-it-works {
+    height: 577px;
+    background-color: #f8f8f8;
+}
+
+ small {
+    font-size: 11px;
+    color: #a9a9a9;    
+    position: relative;
+    top: 135px;
+    left: 270px;
+}
+
+ul.wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #272727;
+    position: relative;
+    margin: 0 auto;
+    top: 220px;
+}
+
+h3 {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato-Black";
+    width: 100%;
+}
+.procedure {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 60px 0 0;
+}
+
+.procedure img{
+    position: relative;
+    left: 125px;
+}
+
+.procedure p {
+    max-width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+.started {
+    width: 240px;
+    height: 57px;
+    border-radius: 35px;
+    background-color: #2aac5f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 3px;
+    position: relative;
+    top: 250px;
+    left: 415px;
+    font-family: "Lato-Black";
+}
+
+.started:hover{
+    color: #f8f8f8;
+    background-color: #2dad8e;
+}
+
+.our-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    height: 360px;
+    background: #fff;
+}
+
+.our-benefits h3{
+    width: 100%;
+    padding-right: 73px;
+    padding-top: 20px;
+    max-height: 0px;
+}
+
+.benefits {
+    display: block;
+    width: 353px;
+    background-color: #fff;
+    color: #323232;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.benefits li {
+    background: url("../img/checked.png") 0 50% no-repeat;
+    padding-left: 30px;
+}
+.benefits li:last-child {
+    background: url("../img/checked.png") 0 25% no-repeat;
+}
+
+.learn-more {
+    height: 380px;
+    color: #232323;
+    background-color: #f8f8f8;
+}
+
+.learn-more h2 {
+    margin-top: 39px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 42px;
+    font-family: "Lato-Light";
+    padding-right: 100px;
+    word-spacing: -2px;
+}
+.learn-more h3 {
+    padding: 0 70px 0 0;
+    text-transform: none;
+    font-size: 22px;
+    font-family: "Lato-Light";
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    margin: 30px 220px;
+}
+.learn-more button.submit-form-request {
+    width: 190px;
+    margin-left: 75px;
+    text-transform: uppercase;
+}
+footer {
+    height: 690px;
+    background: #2e3346;
+}
+
