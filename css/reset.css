@@ -1,0 +1,41 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+a, abbr, address, cite, code,
+em, img, ins, q, select, input,
+small, strong, i, ol, ul, li, form, label,
+article, aside, canvas, hr,
+figure, figcaption, main, footer, header, hgroup, button,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font-style: initial;
+    font-weight: normal;
+    color: inherit;
+}
+/* <main> display fix for IE */
+main
+{
+    display: block
+}
+ol, ul {
+    list-style: none;
+}
+
+button,
+input[type=button] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none; 
+}
+table {
+    border-collapse: collapse; 
+}
