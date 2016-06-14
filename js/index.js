@@ -19,7 +19,7 @@ function read(eventType) {
 
 //*************************Submit form***********************
 
-$("submit-form-request").addEventListener("submit", (event) =>
+$(".submit-form-request").addEventListener("submit", (event) =>
     {
         event.preventDefault()
         calculateLoan()
