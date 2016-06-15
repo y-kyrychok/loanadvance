@@ -19,7 +19,6 @@ function read(eventType) {
 
 //*************************Submit form***********************
 
-$(".submit-form-request").addEventListener("submit", (event) =>
 let form = $(".request")
 
 form.addEventListener("submit", (event) =>
@@ -29,5 +28,13 @@ form.addEventListener("submit", (event) =>
     });
 
 function calculateLoan() {
-    
+    let loanInfo = $(".loan-info")
+    let inputs = $(".inputs")
+    inputs.style.display = "none"
+    loanInfo.style.display = "flex"
+
+
+    let lastname = $("input.last-name")
+    let period = $("input.period")
+    let name = $("input.first-name")
 }
