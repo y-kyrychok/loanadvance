@@ -4,16 +4,16 @@ let $ = (selector) => document.body.querySelector(selector);
 
 // *******************input[type=range]***********************
 
-let $rng = document.querySelector("input.loan-range");
+let rng = document.querySelector("input.loan-range");
 
 read("change");
 read("mousedown");
 read("mousemove");
 
 function read(eventType) {
-    $rng.addEventListener(eventType, ()=>
+    rng.addEventListener(eventType, ()=>
     {
-      $("strong").innerHTML = "$" + $rng.value;
+      $("strong").innerHTML = "$" + rng.value;
     });
   };
 
