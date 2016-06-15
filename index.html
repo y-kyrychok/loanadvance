@@ -27,7 +27,7 @@
     </div>
     </header>
     <main>
-        <form width class="request">
+        <form class="request">
             <h2>I would like to borrow<strong class="loan">$600</strong></h2>
             <input type="range" min="200" max="1000" step="50" class="loan-range">
             <div class="range">
@@ -40,6 +40,19 @@
             <input class="email" type="email" required placeholder="Email">
             <input class="period" type="number" required placeholder="Period" min="1" max="24">
             <button type="submit" class="submit-form-request">CALCULATE NOW</button>
+            </div>
+            <div class="loan-info">
+              <table>
+                  <thead>
+                    <tr>
+                        <th>Name
+                        <th>Last Name
+                        <th>Wished Loan
+                        <th>Interest
+                        <th>Total
+                    </tr>
+                  </thead>
+              </table>
             </div>
         </form>
         <section class="how-it-works">
